@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block title %}
+{% endblock %}
+
+{% block contents %}
+    <div class="user">
+        <h3>{{ channel_name }}さんの一番低評価の多い動画TOP3は、1位 {{ bad1 }} 2位 {{ bad2 }} 3位 {{ bad3 }}です♡</h3>
+        <h3>{{ channel_name }}さんの一番高評価の多い動画TOP3は、1位 {{ good1 }} 2位 {{ good2 }} 3位 {{ good3 }}です♡</h3>
+        <!-- <h3>{{ channel_name }}さんの一番低評価率の多い動画TOP3は、1位 {{ goodratio1 }} 2位 {{ goodratio2 }} 3位 {{ goodratio3 }}です♡</h3>
+        <h3>{{ channel_name }}さんの一番高評価率の多い動画TOP3は、1位 {{ badratio1 }} 2位 {{ badratio2 }} 3位 {{ badratio3 }}です♡</h3>
+        <h3>{{ channel_name }}さんのすべの動画の高評価率TOP3は、1位 {{ allgood1 }} 2位 {{ allgood2 }} 3位 {{ allgood3 }}です♡</h3>
+        <h3>{{ channel_name }}さんのすべの動画の低評価率TOP3は、1位 {{ allbad1 }} 2位 {{ allbad2 }} 3位 {{ allbad3 }}です♡</h3> -->
+    </div>
+{% endblock %}
